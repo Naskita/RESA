@@ -1,0 +1,147 @@
+#05
+;FF     PUBLIC
+02FFED8@@CPR1
+02FFEDE@@FPRF1
+02FFEDF@@FPRF2
+02FFEDE@@FPRFP
+02FFED8@@FPRS
+02FFEDC@@FPRXD
+02FFEDC@@FPRXP
+02FFEDD@@FPRXS
+02FF000_?DATA
+02FF00A_?DATAL
+02FF00A_?DATS
+02FF00A_?INIS
+02FF00A_?INIT
+02FF00A_?INITL
+0100002_?RLINIT
+0100002_?R_INIS
+010000E_?R_INIT
+02FEF98_@BRKADR
+02FEF86_@DIVR
+02FEF80_@FNCENT
+02FEF00_@FNCTBL
+02FEF8A_@LDIVR
+0000000_@MAA
+02FEFBA_@MEMBTM
+02FEF9A_@MEMTOP
+02FFED8_@RTARG0
+02FFED9_@RTARG1
+02FFEDA_@RTARG2
+02FFEDB_@RTARG3
+02FFEDC_@RTARG4
+02FFEDD_@RTARG5
+02FFEDE_@RTARG6
+02FFEDF_@RTARG7
+01FFE20_@SADBEG
+00000C0_@SADSIZ
+02FEF82_@SEED
+02FFED4_@SEGAX
+02FFED5_@SEGBC
+02FFED6_@SEGDE
+02FFED7_@SEGHL
+00FFE20_@STBEG
+00FF00A_@STEND
+02FEF92_@TOKPTR
+0100185_@cend
+01000D8_@cstart
+0100024_@vect24
+0100026_@vect26
+010002C_@vect2c
+010002E_@vect2e
+02FEFFF_Day_count
+01012BB_Delay_mS
+01012A7_Delay_uS
+01012F4_GetMsFlag
+01012E7_GetUsFlag
+02FEFFE_Hour_count
+02FEFFB_Hundred_MS_count
+02FEFF9_Hundred_US_count
+0300105_Key_Hips_Once_Flag
+0300104_Key_Hips_Press_Flag
+0300103_Key_Hips_Trg_Flag
+0300102_Key_Stop_Once_Flag
+0300101_Key_Stop_Press_Flag
+0300100_Key_Stop_Trg_Flag
+0300108_Key_Women_Once_Flag
+0300107_Key_Women_Press_Flag
+0300106_Key_Women_Trg_Flag
+02FEFFA_MS_count
+02FEFFD_Min_count
+0102000_NUM
+030010B_OnSeat_Once_Flag
+030010A_OnSeat_Press_Flag
+0300109_OnSeat_Trg_Flag
+0300112_Once_TM1650_Init_Flag
+0101012_R_CGC_Create
+0101053_R_CGC_Get_ResetSource
+0100F2F_R_MAIN_UserInit
+0101058_R_PORT_Create
+0101076_R_SAU0_Create
+0100FEF_R_Systeminit
+0101263_R_TAU0_Channel0_Start
+0101274_R_TAU0_Channel0_Stop
+0101285_R_TAU0_Channel1_Start
+0101296_R_TAU0_Channel1_Stop
+01011C0_R_TAU0_Create
+0101088_R_UART1_Create
+0101164_R_UART1_Receive
+010118A_R_UART1_Send
+0101118_R_UART1_Start
+0101143_R_UART1_Stop
+0300110_Seat_Induction_Wrong_Flag
+030010C_Seat_Pad_19_Flag
+030010D_Seat_Pad_20_Flag
+030010E_Seat_Pad_Wrong_Flag
+030010F_Seat_Temp_Wrong_Flag
+02FEFFC_Sec_count
+0100F33_Send_RemoteControl_Signal
+0300111_Start_To_Display_Flag
+02FF000_TM1650_Address
+02FF005_TM1650_Instruction
+0300113_TM1650_Ready_To_Write_Flag
+0300114_TM1650_Writing_Flag
+02FEFEC_Temp_Value
+02FEFF8_US_count
+02FEF96_errno
+0101345_exit
+02FEFF4_g_uart1_rx_count
+02FEFF6_g_uart1_rx_length
+02FEFF0_g_uart1_tx_count
+02FEFF2_gp_uart1_rx_address
+02FEFEE_gp_uart1_tx_address
+010100A_hdwinit
+0100236_main
+02FEFED_state
+0101301_stkinit
+02FEFE6_temp_i
+02FEFE8_temp_j
+02FEFEA_temp_k
+0300117_tmp_flag
+02FEFBA_tx_dat
+0300116_v_ms_flag
+0300115_v_us_flag
+;FF     @cstart
+;FF     r_main
+;FF     r_systeminit
+;FF     r_cg_cgc
+;FF     r_cg_cgc_user
+;FF     r_cg_port
+;FF     r_cg_port_user
+;FF     r_cg_serial
+;FF     r_cg_serial_user
+<01011BE_r_uart1_callback_receiveend
+01011BF_r_uart1_callback_sendend
+0100185_r_uart1_interrupt_receive
+01001E8_r_uart1_interrupt_send
+;FF     r_cg_timer
+;FF     r_cg_timer_user
+<010022C_r_tau0_channel0_interrupt
+0100231_r_tau0_channel1_interrupt
+;FF     @SEGREG
+;FF     @stkinit
+;FF     @RTARG0
+;FF     exit
+;FF     @rom
+=
+
